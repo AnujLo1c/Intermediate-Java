@@ -1,5 +1,0 @@
-INDEX VERSION 1.134
-C:\Users\anujl\OneDrive\Desktop\JAVA\Eclipse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\966887016.index
-\first\src\main\java
-C:\Users\anujl\OneDrive\Desktop\JAVA\Eclipse\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2324586991.index
-\form\src\main\java
