@@ -2097,3 +2097,13 @@ org.eclipse.jgit.errors.TransportException: https://github.com/AnujLo1c/Intermed
 
 !ENTRY org.eclipse.egit.ui 4 0 2025-06-27 14:52:41.244
 !MESSAGE Can't connect to any repository: https://github.com/AnujLo1c/Intermediate-Java.git (https://github.com/AnujLo1c/Intermediate-Java.git: not authorized)
+
+!ENTRY org.eclipse.egit.core 4 0 2025-06-27 15:01:28.161
+!MESSAGE Pulling 1 repository
+!SUBENTRY 1 org.eclipse.egit.core 4 0 2025-06-27 15:01:28.161
+!MESSAGE Cannot pull into a repository with state: MERGING
+!STACK 0
+org.eclipse.jgit.api.errors.WrongRepositoryStateException: Cannot pull into a repository with state: MERGING
+	at org.eclipse.jgit.api.PullCommand.call(PullCommand.java:220)
+	at org.eclipse.egit.core.op.PullOperation$PullJob.run(PullOperation.java:256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
