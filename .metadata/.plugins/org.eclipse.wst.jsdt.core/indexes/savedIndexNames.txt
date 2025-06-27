@@ -1,10 +1,5 @@
 INDEX VERSION 1.4+C:\Users\anujl\OneDrive\Desktop\JAVA\Eclipse\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-1782074022.index
-2138483865.index
-3158848395.index
-2855758351.index
 2665312357.index
 1208874884.index
 2788503614.index
 3232130769.index
-470751058.index
