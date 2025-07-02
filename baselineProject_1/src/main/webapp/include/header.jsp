@@ -11,7 +11,7 @@
 
 
     <title>
-    ${param.titlePage}
+    <%=request.getAttribute("title") %>
     </title>
 
     <!-- Bootstrap core CSS -->
@@ -52,7 +52,10 @@
           <ul class="nav navbar-nav">
             <li><a href="<%= request.getContextPath() %>/home?page=home">HOME</a></li>
             <li><a href="<%= request.getContextPath() %>/home?page=listUser">ListUsers</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="<%= request.getContextPath() %>/home?page=addUser">Add Users</a></li>
+            <li><a href="<%= request.getContextPath() %>/home?page=updateUser">Update Users</a></li>
+            <li><a href="<%= request.getContextPath() %>/home?page=deleteUser">Delete Users</a></li>
+  
             
           </ul>
         </div><!--/.nav-collapse -->
@@ -61,4 +64,4 @@
 
 <div class="container mtb">
 	 	<div class="row">
-		 	<div class="col-lg-8 col-lg-offset-2 centered">
+		 	<div class="col-lg-8 col-lg-offset-2 ">
