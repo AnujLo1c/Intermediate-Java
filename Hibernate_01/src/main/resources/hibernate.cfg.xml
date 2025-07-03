@@ -1,0 +1,26 @@
+<!DOCTYPE hibernate-configuration SYSTEM "dtd/hibernate-configuration-3.0.dtd">
+
+
+<hibernate-configuration>
+    <session-factory>
+
+        <!-- Database connection settings -->
+        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/anuj</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">anuj</property>
+
+        <!-- SQL dialect -->
+        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+
+        <!-- Show SQL on console -->
+        <property name="show_sql">true</property>
+
+        <!-- Set session context -->
+        <property name="current_session_context_class">thread</property>
+
+        <!-- Mapping class example (optional) -->
+        <!-- <mapping class="com.example.model.YourEntityClass"/> -->
+        <mapping class="org.anujl.entity.User"/>
+    </session-factory>
+</hibernate-configuration>
