@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>spring_ioc_di</name>
+	<name>spring_setup</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -34,11 +34,4 @@
 		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>src/main/java</name>
-			<type>2</type>
-			<location>//C:/Users/anujl/OneDrive/Desktop/JAVA/Eclipse/spring_ioc_di/src/main/java/</location>
-		</link>
-	</linkedResources>
 </projectDescription>
